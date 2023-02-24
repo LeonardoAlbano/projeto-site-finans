@@ -21,7 +21,8 @@ footer p a {
 	margin: 5px 15px;
 }
 
-
+/* ANIMAÇÃO
+********************/
 
 header nav {
     animation: fromtop 0.2s 0.2s backwards;
