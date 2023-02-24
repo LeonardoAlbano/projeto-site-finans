@@ -1,0 +1,110 @@
+body {
+	background:#ffc107;;
+}
+
+#home {
+	background: #ffc107;
+	color: aliceblue;
+}
+
+.caixa {
+	padding: 60px 0 ;
+	border-bottom: 1px solid rgb(212, 183, 14) ;
+
+}
+
+section {
+    background: azure;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+
+
+header nav {
+    animation: fromtop 0.2s 0.2s backwards;
+}
+
+section div {
+	animation: fromleft 0.25s 0.25s backwards;
+}
+
+#animation {
+
+	animation: fromright 0.35s 0.35s backwards;
+}
+
+#animationRedes {
+
+	animation: frombottom 0.45s 0.45s backwards;
+}
+
+
+
+@keyframes fromtop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+
+
+@keyframes fromleft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fromright {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes frombottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+ section {
+    animation: frombottom .7s backwards;
+}
+
+ section:nth-child(1) {
+    animation-delay: 0;
+}
+
+ section:nth-child(2) {
+    animation-delay: .3s;
+}
+
+ section:nth-child(3) {
+    animation-delay: .6s;
+ }
